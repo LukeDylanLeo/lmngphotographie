@@ -1,0 +1,183 @@
+@font-face {
+  font-family: "Biko";
+  src: url("./font/Biko_Regular.otf");
+  font-family: "Walkway";
+  src: url("./font/walkway.ttf");
+  font-family: "Geosans";
+  src: url("./font/GeosansLight.ttf");
+}
+
+.menu-item {
+  color: black;
+  font-family: "Geosans";
+  transition-duration: $defaultDuration;
+  transition-property: transform;
+
+  @include hideTapHighlightColor();
+  @include hardwareAccel();
+  @include improveAntiAlias();
+  }
+
+
+.menu-item:hover {
+  color: #6E6E6E;
+  display: inline-block;
+  transform: scale(1.2);
+  border-bottom: 3px solid #00CC00;
+  font-family: "Geosans";
+}
+
+.menu-item {
+  text-decoration: none;
+  display: inline;
+  font-size: 400%;
+  text-align: center;
+}
+
+nav {
+  /* background-color: orange; */
+  padding: 7% 0 2% 0;
+  position: sticky;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  /* height: 75px; */
+  box-shadow: 3px 5px 12px #007600;
+}
+
+#main {
+  /* background-color: blue; */
+  width: 75%;
+}
+
+.main {
+  padding: 0 7% 0 7%;
+  font-size: 300%;
+  font-family: "Geosans";
+  text-align: justify;
+  hyphens: auto;
+  color: #585858;
+}
+
+.title {
+  padding-left: 12%;
+  font-size: 500%;
+  font-family: "Geosans";
+  color: #004B00;
+}
+
+.horsetitle {
+  padding-left: 10%;
+  font-size: 500%;
+  font-family: "Geosans";
+  box-shadow: 6px 6px 6px gray;
+  padding-bottom: 2%;
+  line-height: 400%;
+  color: #131313;
+  letter-spacing: .15em;
+}
+
+
+#info {
+  background-color: #C7FFC7;
+  width: 25%;
+  padding: 5% 3% 0 3%;
+}
+
+.info {
+  padding: 0 7% 0 5%;
+  font-size: 200%;
+  font-family: "Geosans";
+  text-align: justify;
+  hyphens: auto;
+  color: #585858;
+}
+
+#roundedimg {
+    border-radius: 50px;
+    width: 120px;
+    height: 120px;
+    margin: auto;
+}
+
+.info-img {
+  display: flex;
+  justify-content: center;
+}
+
+#content {
+  /* background-color: darkblue; */
+  display: flex;
+  flex-direction: row;
+}
+
+body {
+  margin: 0;
+}
+
+@media (max-width: 496px) {
+  nav {
+    flex-direction: column;
+    font-size: 100%;
+  }
+
+  #content {
+    flex-direction: column;
+  }
+
+  #info {
+    width: 100%;
+  }
+
+  .info {
+    font-size: 150%;
+    padding-right: 10%;
+  }
+
+  #main {
+    width: 100%;
+  }
+
+  .main {
+    font-size: 180%;
+  }
+
+  .photo {
+    max-width: 120%;
+  }
+
+  .horsetitle {
+    font-size: 150%;
+    line-height: 220%;
+   }
+
+   .title {
+     font-size: 350%;
+   }
+
+}
+
+#photos {
+  text-align: center;
+}
+
+.photo {
+  max-width: 70%;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#lien-download {
+  text-decoration: none;
+  color: darkblue;
+  font-family: "Geosans";
+  font-size: 150%;
+}
+
+#lien-download:hover {
+  color: black;
+  text-decoration: underline;
+  font-weight: bold;
+  font-size: 160%;
+}
