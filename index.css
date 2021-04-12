@@ -23,12 +23,12 @@ body {
 }
 
 h1 {
-  font-size: 200%;
+  font-size: 210%;
   font-family: "Geosans";
 }
 
 h2 {
-  font-size: 160%;
+  font-size: 180%;
   font-family: "Geosans";
 }
 
@@ -41,9 +41,8 @@ input {
 button {
   display: inline-block;
   border-radius: 10px;
-  border: 2px solid black;
   text-align: center;
-  font-size: 120%;
+  font-size: 160%;
   padding: 0.5%;
   width: 30%;
   cursor: pointer;
@@ -51,8 +50,9 @@ button {
   font-family: "Geosans";
   font-weight: bold;
   background-color: white;
+  border: 0px solid white;
 }
 
 button:hover {
-  border: 2px solid green;
+  color: forestgreen;
 }

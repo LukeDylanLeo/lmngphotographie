@@ -1,3 +1,14 @@
+<?php
+  if (isset($_COOKIE["auth"])) {
+    $cookie = $_COOKIE["auth"];
+    if ($cookie = false) {
+      header('Location:motdepasse.php');
+    }
+  }
+  else {
+    header('Location:motdepasse.php');
+  }
+ ?>
 <!DOCTYPE html>
 <html lang="fr" dir="ltr">
 <head>
