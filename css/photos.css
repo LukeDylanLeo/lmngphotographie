@@ -1,10 +1,20 @@
 @font-face {
   font-family: "Biko";
-  src: url("./font/Biko_Regular.otf");
-  font-family: "Walkway";
-  src: url("./font/walkway.ttf");
+  src: url("../font/Biko_Regular.otf");
+}
+
+@font-face {
+    font-family: "Walkway";
+    src: url("../font/walkway.ttf");
+}
+
+@font-face {
   font-family: "Geosans";
-  src: url("./font/GeosansLight.ttf");
+  src: url("../font/GeosansLight.ttf");
+}
+
+a {
+  text-decoration: none;
 }
 
 .menu-item {
@@ -180,4 +190,27 @@ body {
   text-decoration: underline;
   font-weight: bold;
   font-size: 160%;
+}
+
+footer {
+  height: 20vh;
+  background-color: black;
+  margin: 0;
+  padding: 0;
+  vertical-align: middle;
+}
+
+.footer {
+  color: #C7FFC7;
+  font-size: 150%;
+  padding-left: 4%;
+  padding-top: 2%;
+  margin: 0;
+  font-family: "Walkway";
+}
+
+.right {
+  text-align: right;
+  color: #C7FFC7;
+  font-family: "Walkway";
 }

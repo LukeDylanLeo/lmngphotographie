@@ -1,20 +1,21 @@
 <?php
-  if (isset($_COOKIE["auth"])) {
-    $cookie = $_COOKIE["auth"];
-    if ($cookie = false) {
-      header('Location:motdepasse.php');
-    }
-  }
-  else {
+if (isset($_COOKIE["auth"])) {
+  $cookie = $_COOKIE["auth"];
+  if ($cookie = false) {
     header('Location:motdepasse.php');
   }
- ?>
+}
+else {
+  header('Location:motdepasse.php');
+}
+?>
 <!DOCTYPE html>
 <html lang="fr" dir="ltr">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <link rel="stylesheet" href="photos.css">
+  <link rel="stylesheet" href="css/photos.css">
+  <link rel="stylesheet" href="css/all.min.css">
   <title>LMNG - Photographie</title>
 </head>
 <body>
@@ -36,9 +37,13 @@
     </div>
     <div id="main">
       <h2 class="title">Bienvenue!</h2>
-    <p class="main">Voici un site sur lequel vous pourrez télécharger mes photos simplement! Il y a trois rubriques: Cheval, Judo et Foot!</p>
-    <p class="main">J'espère que mon travail vous plaira!</p>
+      <p class="main">Voici un site sur lequel vous pourrez télécharger mes photos simplement! Il y a trois rubriques: Cheval, Judo et Foot!</p>
+      <p class="main">J'espère que mon travail vous plaira!</p>
     </div>
   </div>
+  <footer>
+    <p class="footer">Suivez moi sur <a href="">Instagram <i class="fab fa-instagram"></i></a></p>
+    <p class="right">Site réalisé par Orane Bouy--Intartaglia</p>
+  </footer>
 </body>
 </html>

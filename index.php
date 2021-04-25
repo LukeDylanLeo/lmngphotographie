@@ -2,7 +2,7 @@
 <html lang="fr" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="index.css" type="text/css">
+    <link rel="stylesheet" href="css/index.css" type="text/css">
     <title>Accueil</title>
   </head>
   <body>
