@@ -17,5 +17,6 @@
     <p><a target="_blank" href="img/photo_exemple.jpg" id="lien-download">Télécharger l'image</a></p>
   </div>
   </div>
+  <?php include 'footer.html' ?>
 </body>
 </html>

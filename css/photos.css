@@ -52,7 +52,7 @@ nav {
   flex-direction: row;
   justify-content: space-around;
   /* height: 75px; */
-  box-shadow: 3px 5px 12px #007600;
+  box-shadow: 3px 0px 12px #007600;
 }
 
 #main {
@@ -78,15 +78,18 @@ nav {
 
 .horsetitle {
   padding-left: 10%;
-  font-size: 500%;
+  font-size: 200%;
   font-family: "Geosans";
-  box-shadow: 6px 6px 6px gray;
+  box-shadow: 3px 0px 12px #007600;
   padding-bottom: 2%;
   line-height: 400%;
-  color: #131313;
+  color: #004B00;
   letter-spacing: .15em;
 }
 
+.horsetitle h1 {
+  margin: 0;
+}
 
 #info {
   background-color: #C7FFC7;
@@ -197,20 +200,48 @@ footer {
   background-color: black;
   margin: 0;
   padding: 0;
+  display: flex;
+  flex-direction: row;
+  align-content: space-between;
   vertical-align: middle;
 }
 
 .footer {
   color: #C7FFC7;
-  font-size: 150%;
-  padding-left: 4%;
-  padding-top: 2%;
+  font-size: 200%;
   margin: 0;
+  padding-left: 50px;
   font-family: "Walkway";
+  /* background-color: red; */
+  width: 50%;
+  align-self: center;
 }
 
 .right {
-  text-align: right;
   color: #C7FFC7;
   font-family: "Walkway";
+  /* background-color: pink; */
+  width: 50%;
+  text-align: right;
+  align-self: center;
+  padding-right: 20px;
+}
+
+
+.insta {
+  color: #C7FFC7;
+}
+
+.insta:hover {
+  color: lightgreen;
+  text-shadow:
+  0 0 10px rgba(199, 255, 199, 1),
+  0 0 50px rgba(199, 255, 199, .8),
+  0 0 75px rgba(199, 255, 199, .6),
+  0 0 76px rgba(199, 255, 199, .4),
+  0 0 77px rgba(199, 255, 199, .5),
+  0 0 78px rgba(199, 255, 199, .4),
+  0 0 79px rgba(199, 255, 199, .3),
+  0 0 80px rgba(199, 255, 199, .2),
+  0 0 85px rgba(199, 255, 199, .1);
 }

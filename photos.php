@@ -20,9 +20,9 @@ else {
 </head>
 <body>
   <nav>
-    <a target="_blank" href="cheval.html" class="menu-item">Cheval</a>
-    <a target="_blank" href="judo.html" class="menu-item">Judo</a>
-    <a target="_blank" href="foot.html" class="menu-item">Foot</a>
+    <a href="cheval.html" class="menu-item">Cheval</a>
+    <a href="judo.html" class="menu-item">Judo</a>
+    <a href="foot.html" class="menu-item">Foot</a>
   </nav>
   <div id="content">
     <div id="info">
@@ -41,9 +41,6 @@ else {
       <p class="main">J'espère que mon travail vous plaira!</p>
     </div>
   </div>
-  <footer>
-    <p class="footer">Suivez moi sur <a href="">Instagram <i class="fab fa-instagram"></i></a></p>
-    <p class="right">Site réalisé par Orane Bouy--Intartaglia</p>
-  </footer>
+ <?php include 'footer.html' ?>
 </body>
 </html>
