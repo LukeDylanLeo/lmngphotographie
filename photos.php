@@ -20,9 +20,9 @@ else {
 </head>
 <body>
   <nav>
-    <a href="cheval.html" class="menu-item">Cheval</a>
-    <a href="judo.html" class="menu-item">Judo</a>
-    <a href="foot.html" class="menu-item">Foot</a>
+    <a href="cheval.php" class="menu-item">Cheval</a>
+    <a href="judo.php" class="menu-item">Judo</a>
+    <a href="foot.php" class="menu-item">Foot</a>
   </nav>
   <div id="content">
     <div id="info">

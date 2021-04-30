@@ -128,48 +128,6 @@ body {
   margin: 0;
 }
 
-@media (max-width: 496px) {
-  nav {
-    flex-direction: column;
-    font-size: 100%;
-  }
-
-  #content {
-    flex-direction: column;
-  }
-
-  #info {
-    width: 100%;
-  }
-
-  .info {
-    font-size: 150%;
-    padding-right: 10%;
-  }
-
-  #main {
-    width: 100%;
-  }
-
-  .main {
-    font-size: 180%;
-  }
-
-  .photo {
-    max-width: 120%;
-  }
-
-  .horsetitle {
-    font-size: 150%;
-    line-height: 220%;
-   }
-
-   .title {
-     font-size: 350%;
-   }
-
-}
-
 #photos {
   text-align: center;
 }
@@ -234,6 +192,7 @@ footer {
 
 .insta:hover {
   color: lightgreen;
+  color: white;
   text-shadow:
   0 0 10px rgba(199, 255, 199, 1),
   0 0 50px rgba(199, 255, 199, .8),
@@ -244,4 +203,51 @@ footer {
   0 0 79px rgba(199, 255, 199, .3),
   0 0 80px rgba(199, 255, 199, .2),
   0 0 85px rgba(199, 255, 199, .1);
+}
+
+@media (max-width: 496px) {
+  html, body {
+    margin-right: 0;
+    padding-right: 0;
+  }
+
+  nav {
+    flex-direction: column;
+    font-size: 100%;
+  }
+
+  #content {
+    flex-direction: column;
+  }
+
+  #info {
+    width: 100%;
+  }
+
+  .info {
+    font-size: 150%;
+    padding-right: 10%;
+  }
+
+  #main {
+    width: 100%;
+  }
+
+  .main {
+    font-size: 180%;
+  }
+
+  .photo {
+    max-width: 120%;
+  }
+
+  .horsetitle {
+    font-size: 150%;
+    line-height: 220%;
+  }
+
+  .title {
+    font-size: 350%;
+  }
+
 }
