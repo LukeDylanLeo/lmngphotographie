@@ -11,7 +11,7 @@
     <h2>Mot de passe :</h2>
 
     <form class="" action="motdepasse.php" method="post">
-      <input type="password" name="mdp" placeholder="Saisissez le mot de passe..." required>
+      <input type="password" name="mdp" placeholder="Saisissez le mot de passe. . ." required>
       <button type="submit" name="button">Valider</button>
 
     </form>

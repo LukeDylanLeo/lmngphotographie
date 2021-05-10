@@ -1,0 +1,26 @@
+@font-face {
+  font-family: "Quick";
+  src: url("../font/quick.otf");
+}
+
+.bouton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  border-radius: 25px;
+  height: 10vh;
+  border: none;
+  background-color: #00CB00;
+  color: white;
+  font-family: "Quick";
+  padding: 0 10px 0 10px;
+  font-size: 110%;
+  margin: 2%;
+}
+
+button:hover {
+  background-color: #007C00;
+}

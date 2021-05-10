@@ -11,8 +11,8 @@ html {
 
 #all {
   background-color: white;
-  margin: 7% 32% 8% 32%;
-  padding: 4% 7% 5% 7%;
+  margin: 7% 30% 8% 30%;
+  padding: 4% 4% 5% 4%;
   text-align: center;
   box-shadow: 5px 5px 12px green;
 }
@@ -34,16 +34,21 @@ h2 {
 }
 
 input {
-  width: 50%;
+  width: 220px;
   margin-left: 5px;
   cursor: pointer;
+  background-color: #E6FFE4;
+  border: 2px solid #AFFFA6;
+  height: 5vh;
+  font-size: 120%;
+  font-family: "Geosans";
 }
 
 button {
   display: inline-block;
   border-radius: 10px;
   text-align: center;
-  font-size: 160%;
+  font-size: 190%;
   padding: 0.5%;
   width: 30%;
   cursor: pointer;
